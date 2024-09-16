@@ -1,44 +1,44 @@
 <?php
 $boots = [
     [
-        'name' => 'Vodka',
+        'name' => 'Hibiki',
         'perPrice' => 922.5,
         'perAvail' => 456,
-        'image' => 'images/vodka-model.jpg'
+        'image' => 'images/whiskyone.jpg'
     ],
     [
-        'name' => 'Gin',
+        'name' => 'Basil Haydens',
         'perPrice' => 120,
         'perAvail' => 124,
-        'image' => 'images/gin-model.jpg'
+        'image' => 'images/whiskytwo.jpg'
     ],
     [
-        'name' => 'Sujo',
+        'name' => 'Hennessy',
         'perPrice' => 5820,
         'perAvail' => 100,
-        'image' => 'images/sujo.jpg'
+        'image' => 'images/whiskythree.jpg'
     ],
     [
-        'name' => 'Whisky',
+        'name' => 'Guinness',
         'perPrice' => 1000,
         'perAvail' => 897,
-        'image' => 'images/whisky-model.jpg'
+        'image' => 'images/whiskyfour.jpg'
     ],
     [
-        'name' => 'Gifts',
+        'name' => 'Millesime',
         'perPrice' => 897,
         'perAvail' => 500,
-        'image' => 'images/jackdanielgift.jpg'
+        'image' => 'images/whiskyfive.jpg'
     ],
     [
-        'name' => 'PromoDeals',
-        'perPrice' => 0,
+        'name' => 'Eminente',
+        'perPrice' => 4502,
         'perAvail' => 5,
-        'image' => 'images/comingsoon.jpg'
+        'image' => 'images/whiskysix.jpg'
     ],
 ];
 ?>
-<div class='content'>
+
 <div id="product-container">
     <?php foreach ($boots as $boot) : ?>
         <div class="product-item">
@@ -53,5 +53,3 @@ $boots = [
         </div>
     <?php endforeach; ?>
 </div>
-    </div>
-   

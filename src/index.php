@@ -12,6 +12,28 @@
              <div id="header">
                 <?php
                     include 'header.php';
+                    $page = isset($_GET['page']) ? $_GET['page'] : 'content';
+
+					if($page== 'vodka'){
+                        include 'Vodka.php';
+                    }elseif($page== 'gin'){
+                        include 'Gin.php';
+                    }elseif ($page == 'sujo') {
+						include "Sujo.php";
+					} elseif ($page == 'whisky') {
+						include 'Whisky.php';
+					} elseif ($page == 'gifting') {
+						include 'gifting.php';
+					}elseif($page == 'promo'){
+						include 'promo.php';
+					}else{ 
+						include "content.php";
+					}
+                ?>
+             </div>
+             <div>
+                <?php
+                    include 'footer.php';
                 ?>
              </div>
 </body>

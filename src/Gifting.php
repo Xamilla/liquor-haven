@@ -1,44 +1,44 @@
 <?php
 $boots = [
     [
-        'name' => 'Vodka',
-        'perPrice' => 922.5,
+        'name' => 'Jack Daniel Set',
+        'perPrice' => 50022,
         'perAvail' => 456,
-        'image' => 'images/vodka-model.jpg'
-    ],
-    [
-        'name' => 'Gin',
-        'perPrice' => 120,
-        'perAvail' => 124,
-        'image' => 'images/gin-model.jpg'
-    ],
-    [
-        'name' => 'Sujo',
-        'perPrice' => 5820,
-        'perAvail' => 100,
-        'image' => 'images/sujo.jpg'
-    ],
-    [
-        'name' => 'Whisky',
-        'perPrice' => 1000,
-        'perAvail' => 897,
-        'image' => 'images/whisky-model.jpg'
-    ],
-    [
-        'name' => 'Gifts',
-        'perPrice' => 897,
-        'perAvail' => 500,
         'image' => 'images/jackdanielgift.jpg'
     ],
     [
-        'name' => 'PromoDeals',
-        'perPrice' => 0,
+        'name' => 'Belvedere Set',
+        'perPrice' => 34120,
+        'perAvail' => 124,
+        'image' => 'images/giftingtwo.jpg'
+    ],
+    [
+        'name' => 'Glen Morant 1993 Set',
+        'perPrice' => 52820,
+        'perAvail' => 100,
+        'image' => 'images/giftingthree.jpg'
+    ],
+    [
+        'name' => 'Brandefyn Set',
+        'perPrice' => 13000,
+        'perAvail' => 897,
+        'image' => 'images/giftingfour.jpg'
+    ],
+    [
+        'name' => 'Dewards Set',
+        'perPrice' => 33897,
+        'perAvail' => 500,
+        'image' => 'images/giftfives.jpg'
+    ],
+    [
+        'name' => 'Tomatin',
+        'perPrice' => 510000,
         'perAvail' => 5,
-        'image' => 'images/comingsoon.jpg'
+        'image' => 'images/giftingsix.jpg'
     ],
 ];
 ?>
-<div class='content'>
+
 <div id="product-container">
     <?php foreach ($boots as $boot) : ?>
         <div class="product-item">
@@ -53,5 +53,3 @@ $boots = [
         </div>
     <?php endforeach; ?>
 </div>
-    </div>
-   

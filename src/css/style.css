@@ -9,7 +9,6 @@ body{
 }
 .header{
     position: relative;
-    position: sticky;
     top:0;
     width: 100%;
     border:1px solid black;
@@ -103,11 +102,129 @@ body{
                             }
                                     @keyframes scroll {
                                         0% {
-                                            transform: translateX(100%); /* Start from right side */
+                                            transform: translateX(20%); /* Start from right side */
                                         }
                                         100% {
-                                            transform: translateX(12%); /* Move to the left side */
+                                            transform: translateX(-100%); /* Move to the left side */
                                         }
                                     }
                                     /* end of header */
                         /* start of the content */
+                      
+                    .content{
+                        width: 100%;
+                        height: 1000px;
+                    }
+                        #product-container {
+                            width: 100%;
+                            margin-top: 30px;
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-between;
+                            border:1px solid blue;
+                        }
+                        .product-item {
+                            margin: 20px;
+                            width: 300px;
+                            text-align: center;
+                            position: relative;
+                            border: 1px solid green;
+                            overflow: hidden;
+                        }
+                            .display-model {
+                                width: 100%;
+                                height: 300px;
+                                overflow: hidden;
+                                position: relative;
+                            }
+                            .display-model img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                                display: block;
+                            }
+                                    .overlay {
+                                        position: absolute;
+                                        background-color: rgba(0, 0, 0, 0.5);
+                                        bottom: 0; /* Place the overlay at the bottom */
+                                        left: 0;
+                                        width: 100%;
+                                        height: 100%;
+                                        color: white;
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        opacity: 0;
+                                        transition: opacity 0.3s ease;
+                                        padding: 10px;
+                                        box-sizing: border-box;
+                                    }
+                                                    .product-name {
+                                                        font-size: 18px;
+                                                        font-weight: bold;
+                                                        color: #fff;
+                                                        margin-bottom: 10px;
+                                                    }
+                                                            .buy-button {
+                                                                background-color: black;
+                                                                color: #fff;
+                                                                border: none;
+                                                                border-radius: 10px;
+                                                                padding: 10px 20px;
+                                                                cursor: pointer;
+                                                                margin-top: 10px;
+                                                                display: none; /* Hide by default */
+                                                            }
+
+                                                            /* Show Overlay and Button on Hover */
+                                                            .product-item:hover .overlay {
+                                                                opacity: 1;
+                                                            }
+
+                                                            .product-item:hover .buy-button {
+                                                                display: block; /* Show the button on hover */
+                                                            }
+                                        /* end of the conten box style */
+
+                                        .footer {
+                                            background-color: #333;
+                                            color: white;
+                                            padding: 20px;
+                                            text-align: center;
+                                        }
+                                
+                                        .footer .contact-info {
+                                            margin-bottom: 20px;
+                                        }
+                                
+                                        .footer .contact-info h4 {
+                                            margin: 0;
+                                            font-size: 18px;
+                                            color: #f1f1f1;
+                                        }
+                                
+                                        .footer .contact-info p {
+                                            margin: 5px 0;
+                                            font-size: 16px;
+                                        }
+                                
+                                        .footer .social-icons {
+                                            margin: 20px 0;
+                                        }
+                                
+                                        .footer .social-icons a {
+                                            color: white;
+                                            margin: 0 10px;
+                                            font-size: 24px;
+                                            text-decoration: none;
+                                            transition: color 0.3s ease;
+                                        }
+                                
+                                        .footer .social-icons a:hover {
+                                            color: #4CAF50; /* Green color on hover */
+                                        }
+                                
+                                        .footer .social-icons .fa-map-marker-alt {
+                                            color: #FF5722; /* Map icon color */
+                                        }

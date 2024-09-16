@@ -1,44 +1,44 @@
 <?php
 $boots = [
     [
-        'name' => 'Vodka',
-        'perPrice' => 922.5,
-        'perAvail' => 456,
-        'image' => 'images/vodka-model.jpg'
+        'name' => 'Absolut Raspberri',
+        'perPrice' => 1922.5,
+        'perAvail' => 2,
+        'image' => 'images/vodka-ptwo.jpg'
     ],
     [
-        'name' => 'Gin',
-        'perPrice' => 120,
-        'perAvail' => 124,
-        'image' => 'images/gin-model.jpg'
+        'name' => 'Imperial',
+        'perPrice' => 11240,
+        'perAvail' => 324,
+        'image' => 'images/vodka-pone.jpg'
     ],
     [
-        'name' => 'Sujo',
-        'perPrice' => 5820,
-        'perAvail' => 100,
-        'image' => 'images/sujo.jpg'
+        'name' => 'Gold Uzbekistan',
+        'perPrice' => 4220,
+        'perAvail' => 140,
+        'image' => 'images/vodka-pthree.jpg'
     ],
     [
-        'name' => 'Whisky',
-        'perPrice' => 1000,
+        'name' => 'Venaria din Vale',
+        'perPrice' => 1200,
         'perAvail' => 897,
-        'image' => 'images/whisky-model.jpg'
+        'image' => 'images/vodka-pfour.jpg'
     ],
     [
-        'name' => 'Gifts',
-        'perPrice' => 897,
-        'perAvail' => 500,
-        'image' => 'images/jackdanielgift.jpg'
-    ],
-    [
-        'name' => 'PromoDeals',
-        'perPrice' => 0,
+        'name' => 'Glengrand',
+        'perPrice' => 89724,
         'perAvail' => 5,
-        'image' => 'images/comingsoon.jpg'
+        'image' => 'images/vodka-pfive.jpg'
+    ],
+    [
+        'name' => 'American Barrels',
+        'perPrice' => 4500,
+        'perAvail' => 1,
+        'image' => 'images/vodka-psix.jpg'
     ],
 ];
 ?>
-<div class='content'>
+
 <div id="product-container">
     <?php foreach ($boots as $boot) : ?>
         <div class="product-item">
@@ -53,5 +53,3 @@ $boots = [
         </div>
     <?php endforeach; ?>
 </div>
-    </div>
-   
