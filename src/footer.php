@@ -3,13 +3,13 @@ echo "<div class='footer'>
     <div class='contact-info'>
         <h4>Contact Information</h4>
         <p>Email: contact@liquorhaven.com</p>
-        <p>Address: 123 Liquor Lane, Spirits City, LC 45678</p>
+        <p>Address: Unknown City</p>
     </div>
     <div class='social-icons'>
-        <a href='https://facebook.com' title='Facebook'><i class='fab fa-facebook-f'></i></a>
-        <a href='https://instagram.com' title='Instagram'><i class='fab fa-instagram'></i></a>
-        <a href='https://twitter.com' title='Twitter'><i class='fab fa-twitter'></i></a>
-        <a href='https://maps.google.com' title='Google Maps'><i class='fas fa-map-marker-alt'></i></a>
+        <a href='https://www.facebook.com/crazycompanies/' title='Facebook'><i class='fab fa-facebook-f'></i></a>
+        <a href='https://www.instagram.com/xa_mi_lla/' title='Instagram'><i class='fab fa-instagram'></i></a>
+        <a href='https://x.com/Camille38074472' title='Twitter'><i class='fab fa-twitter'></i></a>
+        <a href='https://www.google.com/maps/search/Maasin+City+BAR/@10.1335965,124.6990192,12z?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D' title='Google Maps'><i class='fas fa-map-marker-alt'></i></a>
     </div>
 </div>";
 ?>

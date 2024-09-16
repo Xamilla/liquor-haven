@@ -39,17 +39,18 @@ $boots = [
 ];
 ?>
 
-<div id="product-container">
-    <?php foreach ($boots as $boot) : ?>
-        <div class="product-item">
-            <div class="display-model">
-                <img src="<?= $boot['image']; ?>" alt="<?= htmlspecialchars($boot['name']); ?>" /> <!-- Added alt attribute for accessibility -->
-                <div class="overlay"> <!-- Ensure the overlay is in the correct place -->
+
+<div class='content'>
+    <div id="product-container">
+        <?php foreach ($boots as $boot) : ?>
+            <div class="product-item">
+                <img src="<?= $boot['image']; ?>" alt="<?= htmlspecialchars($boot['name']); ?>" />
+                <div class="product-details">
                     <p class="product-name"><?= htmlspecialchars($boot['name']); ?></p>
-                    <button class="buy-button">Available: <?= $boot['perAvail'] ?></button>
-                    <button class="buy-button">Price: <?= $boot['perPrice'] ?></button>
+                    <p class="product-info">Price: <?= number_format($boot['perPrice'], 2) ?><br>Available: <?= $boot['perAvail'] ?></p>
+                    <button class="shop-button">Shop Now</button>
                 </div>
             </div>
-        </div>
-    <?php endforeach; ?>
+        <?php endforeach; ?>
+    </div>
 </div>

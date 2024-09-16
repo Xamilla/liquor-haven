@@ -41,7 +41,7 @@ body{
             margin-left: 160px;
             font-family: "Trebuchet MS", Helvetica, sans-serif;
         }
-        /* Navbar */
+                 /* navbar */
         .navbar {
             position: relative;
             width: 70%;
@@ -50,8 +50,6 @@ body{
             text-align: center;
             border: 1px solid black;
         }
-
-                /* Menu Items */
                 .menu {
                     text-decoration: none;
                     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -77,18 +75,16 @@ body{
                     justify-content: center; 
                     padding: 10px; 
                 }
-        
-                /* Icon Links */
                 .icon {
                     text-decoration: none;
-                    margin: 0 10px; /* Space between icons */
-                    font-size: 20px; /* Icon size */
-                    color: #333; /* Dark color for icons */
-                    transition: color 0.3s ease; /* Smooth color transition */
+                    margin: 0 10px;
+                    font-size: 20px; 
+                    color: #333;
+                    transition: color 0.3s ease; 
                 }
         
                 .icon:hover {
-                    color: #376291; /* Color change on hover */
+                    color: #376291; 
                 }
                     /* delivery-moto */
                     .deliverymoto{
@@ -103,10 +99,10 @@ body{
                             }
                                     @keyframes scroll {
                                         0% {
-                                            transform: translateX(20%); /* Start from right side */
+                                            transform: translateX(20%); 
                                         }
                                         100% {
-                                            transform: translateX(-100%); /* Move to the left side */
+                                            transform: translateX(-100%); 
                                         }
                                     }
                                     /* end of header */
@@ -136,7 +132,7 @@ body{
                             position: relative;
                             border: 1px solid green;
                             overflow: hidden;
-                            background-color: #f8f8f8; /* Background color for the product item */
+                            background-color: #f8f8f8; 
                         }
                         
                         .product-item img {
@@ -148,9 +144,9 @@ body{
                         
                         .product-details {
                             padding: 10px;
-                            background-color: #fff; /* Light background for details */
-                            color: #333; /* Dark text for readability */
-                            border-top: 1px solid #ddd; /* Light border to separate details */
+                            background-color: #fff; 
+                            color: #333; 
+                            border-top: 1px solid #ddd; 
                         }
                         
                         .product-name {
@@ -178,7 +174,7 @@ body{
                         }
                         
                         .shop-button:hover {
-                            background-color: #e63e1c; /* Darker shade for hover effect */
+                            background-color: #e63e1c; 
                         }
                                         /* end of the conten box style */
 
@@ -219,10 +215,10 @@ body{
                                         }
                                         
                                         .footer .social-icons a:hover {
-                                            color: #4CAF50; /* Green color on hover */
+                                            color: #4CAF50;
                                         }
                                         
                                         .footer .social-icons .fa-map-marker-alt {
-                                            color: #FF5722; /* Map icon color */
+                                            color: #FF5722;
                                         }
                                         
