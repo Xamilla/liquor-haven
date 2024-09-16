@@ -1,5 +1,6 @@
 body{
     margin:0;
+    background-color: antiquewhite;
 }
 #header{
     position: relative;
@@ -111,18 +112,23 @@ body{
                                     /* end of header */
                         /* start of the content */
                       
-                    .content{
-                        width: 100%;
-                        height: 1000px;
-                    }
+                        .content {
+                            width: 100%;
+                            height: 1100; /* Adjusted to auto */
+                            border: 10px solid green;
+                            margin-bottom: 200px;
+                        }
+                        
                         #product-container {
                             width: 100%;
+                            height: 1020px;
                             margin-top: 30px;
                             display: flex;
                             flex-wrap: wrap;
                             justify-content: space-between;
-                            border:1px solid blue;
+                            border: 1px solid blue;
                         }
+                        
                         .product-item {
                             margin: 20px;
                             width: 300px;
@@ -130,61 +136,50 @@ body{
                             position: relative;
                             border: 1px solid green;
                             overflow: hidden;
+                            background-color: #f8f8f8; /* Background color for the product item */
                         }
-                            .display-model {
-                                width: 100%;
-                                height: 300px;
-                                overflow: hidden;
-                                position: relative;
-                            }
-                            .display-model img {
-                                width: 100%;
-                                height: 100%;
-                                object-fit: cover;
-                                display: block;
-                            }
-                                    .overlay {
-                                        position: absolute;
-                                        background-color: rgba(0, 0, 0, 0.5);
-                                        bottom: 0; /* Place the overlay at the bottom */
-                                        left: 0;
-                                        width: 100%;
-                                        height: 100%;
-                                        color: white;
-                                        display: flex;
-                                        flex-direction: column;
-                                        justify-content: center;
-                                        align-items: center;
-                                        opacity: 0;
-                                        transition: opacity 0.3s ease;
-                                        padding: 10px;
-                                        box-sizing: border-box;
-                                    }
-                                                    .product-name {
-                                                        font-size: 18px;
-                                                        font-weight: bold;
-                                                        color: #fff;
-                                                        margin-bottom: 10px;
-                                                    }
-                                                            .buy-button {
-                                                                background-color: black;
-                                                                color: #fff;
-                                                                border: none;
-                                                                border-radius: 10px;
-                                                                padding: 10px 20px;
-                                                                cursor: pointer;
-                                                                margin-top: 10px;
-                                                                display: none; /* Hide by default */
-                                                            }
-
-                                                            /* Show Overlay and Button on Hover */
-                                                            .product-item:hover .overlay {
-                                                                opacity: 1;
-                                                            }
-
-                                                            .product-item:hover .buy-button {
-                                                                display: block; /* Show the button on hover */
-                                                            }
+                        
+                        .product-item img {
+                            width: 100%;
+                            height: 300px;
+                            object-fit: cover;
+                            display: block;
+                        }
+                        
+                        .product-details {
+                            padding: 10px;
+                            background-color: #fff; /* Light background for details */
+                            color: #333; /* Dark text for readability */
+                            border-top: 1px solid #ddd; /* Light border to separate details */
+                        }
+                        
+                        .product-name {
+                            font-size: 18px;
+                            font-weight: bold;
+                            margin-bottom: 10px;
+                        }
+                        
+                        .product-info {
+                            font-size: 16px;
+                            margin-bottom: 10px;
+                        }
+                        
+                        .shop-button {
+                            background-color: #ff471a;
+                            color: #fff;
+                            border: none;
+                            border-radius: 10px;
+                            padding: 10px 20px;
+                            cursor: pointer;
+                            font-size: 16px;
+                            transition: background-color 0.3s ease;
+                            width: 100%;
+                            margin-top: 10px;
+                        }
+                        
+                        .shop-button:hover {
+                            background-color: #e63e1c; /* Darker shade for hover effect */
+                        }
                                         /* end of the conten box style */
 
                                         .footer {
@@ -192,27 +187,29 @@ body{
                                             color: white;
                                             padding: 20px;
                                             text-align: center;
+                                            position: relative;
+                                            width: 100%;
                                         }
-                                
+                                        
                                         .footer .contact-info {
                                             margin-bottom: 20px;
                                         }
-                                
+                                        
                                         .footer .contact-info h4 {
                                             margin: 0;
                                             font-size: 18px;
                                             color: #f1f1f1;
                                         }
-                                
+                                        
                                         .footer .contact-info p {
                                             margin: 5px 0;
                                             font-size: 16px;
                                         }
-                                
+                                        
                                         .footer .social-icons {
                                             margin: 20px 0;
                                         }
-                                
+                                        
                                         .footer .social-icons a {
                                             color: white;
                                             margin: 0 10px;
@@ -220,11 +217,12 @@ body{
                                             text-decoration: none;
                                             transition: color 0.3s ease;
                                         }
-                                
+                                        
                                         .footer .social-icons a:hover {
                                             color: #4CAF50; /* Green color on hover */
                                         }
-                                
+                                        
                                         .footer .social-icons .fa-map-marker-alt {
                                             color: #FF5722; /* Map icon color */
                                         }
+                                        
