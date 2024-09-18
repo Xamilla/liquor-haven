@@ -4,6 +4,7 @@ echo "<div class='footer'>
         <h4>Contact Information</h4>
         <p>Email: contact@liquorhaven.com</p>
         <p>Address: Unknown City</p>
+        <p><span style='color:pink;'>&copy Camille T. Barola</p>
     </div>
     <div class='social-icons'>
         <a href='https://www.facebook.com/crazycompanies/' title='Facebook'><i class='fab fa-facebook-f'></i></a>

@@ -20,5 +20,6 @@
                             <div class='deliverymoto'>
                                 <h3 class='moto'>We Deliver, Anytime, Anywhere !!!!!!!!</h3>
                             </div>
-         </div>";
+                        <p><span style='color: #000;;margin-top:-160px;float:right;margin-right:10px;font-weight:bold'>&copy Camille T. Barola</p>
+            </div>";
 ?>

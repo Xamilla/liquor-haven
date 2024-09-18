@@ -48,7 +48,7 @@ $boots = [
                 <div class="product-details">
                     <p class="product-name"><?= htmlspecialchars($boot['name']); ?></p>
                     <p class="product-info">Price: <?= number_format($boot['perPrice'], 2) ?><br>Available: <?= $boot['perAvail'] ?></p>
-                    <button class="shop-button">Shop Now</button>
+                    <button class="shop-button">Add to Cart</button>
                 </div>
             </div>
         <?php endforeach; ?>

@@ -1,12 +1,3 @@
-<?php
-$boots = [
-    [
-        'name' => 'Stay TUNE',
-        'image' => 'images/comingsoon.jpg'
-    ],
-];
-?>
-
 
 <div class='content'>
     <div id="product-container">
@@ -15,7 +6,8 @@ $boots = [
                 <img src="<?= $boot['image']; ?>" alt="<?= htmlspecialchars($boot['name']); ?>" />
                 <div class="product-details">
                     <p class="product-name"><?= htmlspecialchars($boot['name']); ?></p>
-                    <button class="shop-button">Unavailable</button>
+                    <p class="product-info">Price: <?= number_format($boot['perPrice'], 2) ?><br>Available: <?= $boot['perAvail'] ?></p>
+                    <button class="shop-button">Shop Now</button>
                 </div>
             </div>
         <?php endforeach; ?>
