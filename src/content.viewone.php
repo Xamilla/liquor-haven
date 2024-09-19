@@ -1,4 +1,4 @@
-
+        <!-- div for content fot the index.viewone.php -->
 <div class='content'>
     <div id="product-container">
         <?php foreach ($boots as $boot) : ?>
