@@ -1,4 +1,4 @@
-            /* this css style is for the contentone.php */
+/* this css style is for the contentwo.php */
 body{
     margin:0;
     background-color: antiquewhite;
@@ -82,6 +82,85 @@ body{
                 .icon:hover {
                     color: #818283; 
                 }
+                .outerform{
+                    margin-top: 50px;
+                  }
+                  .formcontainer{
+                    width: 300px;
+                    height: auto;
+                    margin-left: 500px;
+                    margin-bottom: 20px;
+                    background-color: rgb(41, 39, 39);
+                  }
+                    .login{
+                        margin-top:-300px;
+                        font-size:20px;
+                    }
+                  .innerformcontainer{
+                      padding:10px;
+                      color :rgb(255, 255, 255);
+                  }
+                  .forminputs{
+                    padding:5px;
+                    margin: 30px;
+                    text-align: center;
+                  }
+                    input{
+                       padding:5px;
+                       margin-top: 10px; 
+                    }
+                      label{
+                        float: left;
+                        padding:10px;
+                        font-weight: bold;
+                      }
+                      .close{
+                        background-color: rgb(117, 117, 117);
+                        width: 26px;
+                        height: 29px;
+                        float: right;
+                        margin-right: -40px;
+                        margin-top: -65px;
+                        border-radius: 10px;
+                        text-align: center;
+                        color:rgb(211, 3, 3);
+                        font-weight: bold;
+                      }
+                        .close:hover{
+                            background-color: #2c2828;
+                            transition: step-end;
+                        }
+                            #submitbtn{
+                                background-color:rgb(117, 117, 117);;
+                                border:none;
+                                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-size: 15px;
+                                border-radius: 3px;
+                                color: #fff;
+                                font-weight: bold;
+                            }
+                                #submitbtn:hover{
+                                    background-color: #000000;
+                                    color:rgb(0, 63, 180);
+                                    transition: step-end;
+                                }
+                                    #cancelbtn{
+                                        background-color: rgb(0, 0, 0);
+                                        border:none;
+                                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                        font-size: 15px;
+                                        border-radius: 3px;
+                                        color: #fff;
+                                        font-weight: bold;
+                                        margin-right: 100px;
+                                        float: center;
+                                        margin-left: 77px;
+                                    }
+                                        #cancelbtn:hover{
+                                            background-color: rgb(117, 117, 117);
+                                            color:rgb(212, 3, 3);
+                                            transition: step-end;                                            transition: step-end;  
+                                        }
                     /* delivery-moto */
                     .deliverymoto{
                         margin:-140px 0 0 0 ;

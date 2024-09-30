@@ -63,13 +63,15 @@ body{
                     color: #000; 
                 }
                 .interface {
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: bold;
                     flex-wrap: wrap;
                     width:100px;
                     height: auto;
                     float: right;
                     margin:-50px 30px  auto auto;
                     justify-content: center; 
-                    padding: 10px; 
+                    padding: 10px;  
                 }
                 .icon {
                     text-decoration: none;
@@ -82,6 +84,56 @@ body{
                 .icon:hover {
                     color: #818283; 
                 }
+                .outerform{
+                    margin-top: 50px;
+                  }
+                  .formcontainer{
+                    width: 300px;
+                    height: auto;
+                    margin-left: 500px;
+                    margin-bottom: 20px;
+                    background-color: rgb(255, 123, 0);
+                  }
+                    .login{
+                        margin-top:-300px;
+                        font-size:20px;
+                    }
+                  .innerformcontainer{
+                      padding:10px;
+                      color :black;
+                  }
+                  .forminputs{
+                    padding:5px;
+                    margin: 30px;
+                    text-align: center;
+                  }
+                    input{
+                       padding:5px;
+                       margin-top: 10px; 
+                    }
+                      label{
+                        float: left;
+                        padding:10px;
+                        font-weight: bold;
+                      }
+                      .close{
+                        background-color: rgb(230, 24, 24);
+                        width: 26px;
+                        height: 29px;
+                        float: right;
+                        margin-right: -40px;
+                        margin-top: -65px;
+                        border-radius: 10px;
+                        text-align: center;
+                      }
+                        .close:hover{
+                            background-color: #ff0000;
+                            transition: step-end;
+                        }
+                            .submitbtn{
+                                background-color: #e76d09;
+                                border-radius: 30px;
+                            }
                     /* delivery-moto */
                     .deliverymoto{
                         margin:-140px 0 0 0 ;
@@ -115,24 +167,25 @@ body{
                             width: 100%;
                             height: 1020px;
                             margin-top: 30px;
-                            display: flex;
                             flex-wrap: wrap;
+                            display: flex;
                             justify-content: space-between;
                         }
                         
                             .product-item {
+                                margin-bottom: 20px;
                                 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
                                 margin: 20px;
                                 width: 300px;
                                 text-align: center;
                                 position: relative;
                                 overflow: hidden;
-                                background-color: #f8f8f8; 
                             }
                             
                                 .product-item img {
                                     width: 100%;
                                     height: 300px;
+                                    border-radius: 50%;
                                     object-fit: fill;
                                     display: block;
                                 }
@@ -140,7 +193,6 @@ body{
                                     .product-details {
                                         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
                                         padding: 10px;
-                                        background-color: #fff; 
                                         color: #333; 
                                     }
                     
@@ -171,75 +223,7 @@ body{
                                                         .shop-button:hover {
                                                             background-color: #f32c09; 
                                                         }
-                                                        /* this style is for the contenton.php */
-                                                        .contents {
-                                                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                                                            width: 100%;
-                                                            height: 1100;
-                                                            border-top: 10px solid rgb(0, 0, 0);
-                                                            margin-bottom: 200px;
-                                                        }
-                                                        
-                                                        #product-containers {
-                                                            width: 100%;
-                                                            height: 1020px;
-                                                            margin-top: 10px;
-                                                            display: flex;
-                                                            flex-wrap: wrap;
-                                                            justify-content: space-between;
-                                                        }
-                                                        
-                                                            .product-items {
-                                                                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                                                                margin: 20px;
-                                                                width: 300px;
-                                                                float: left;
-                                                                position: relative;
-                                                                overflow: hidden;
-                                                            }
-                                                            
-                                                                .product-items img {
-                                                                    width: 100%;
-                                                                    height: 300px;
-                                                                    object-fit:fill;
-                                                                    display: block;
-                                                                }
-                                                            
-                                                                    .product-detailss {
-                                                                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                                                                        padding: 10px;
-                                                                        background-color: #fff; 
-                                                                        color: #333; 
-                                                                    }
-                                                    
-                                                                        .product-names {
-                                                                            font-size: 18px;
-                                                                            font-weight: bold;
-                                                                            margin-bottom: 10px;
-                                                                        }
-                                                                        
-                                                                            .product-infos {
-                                                                                font-size: 16px;
-                                                                                margin-bottom: 10px;
-                                                                            }
-                                                            
-                                                                                .shop-buttons {
-                                                                                    background-color: #4e4b4a;
-                                                                                    color: #fff;
-                                                                                    border: none;
-                                                                                    border-radius: 10px;
-                                                                                    padding: 10px 20px;
-                                                                                    cursor: pointer;
-                                                                                    font-size: 16px;
-                                                                                    transition: background-color 0.3s ease;
-                                                                                    width: auto;
-                                                                                    float: right;
-                                                                                    margin-top: -55px;
-                                                                                }
-                                                                                
-                                                                                        .shop-buttons:hover {
-                                                                                            background-color: #000000; 
-                                                                                        }
+                                                                                        
                                         /* end of the content style */
                         /* footer start here */
                                         .footer {

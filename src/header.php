@@ -14,12 +14,16 @@
                         <a href='?page=promo' class='menu'> Promo</a>
                     </div>
                         <div class='interface'>
-                            <a href='?page=homepage' class='icon'><i class='fas fa-sign-in-alt'></i></a>
-                            <a href='?page=homepage' class='icon'><i class='fas fa-user-plus'></i></a>
+                            <a href='?page=login' class='icon'>Login</a>
                         </div>
                             <div class='deliverymoto'>
                                 <h3 class='moto'>We Deliver, Anytime, Anywhere !!!!!!!!</h3>
                             </div>
-                        <p><span style='color: #000;;margin-top:-160px;float:right;margin-right:10px;font-weight:bold'>&copy Camille T. Barola</p>
+                        <p title='pinakagwapa!'><span style='color: #000;;margin-top:-160px;float:right;margin-right:10px;font-weight:bold'>&copy Camille T. Barola</p>
             </div>";
 ?>
+<script>
+    getDocumentbyID(
+        
+    )
+</script>

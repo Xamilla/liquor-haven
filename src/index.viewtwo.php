@@ -13,23 +13,29 @@
              <div id="header">
                 <?php
                     include 'header.php';
-                    $page = isset($_GET['page']) ? $_GET['page'] : 'content.viewtwo.php';
-
-					if($page== 'vodka'){
-                        include 'Vodka.php';
-                    }elseif($page== 'gin'){
-                        include 'Gin.php';
-                    }elseif ($page == 'sujo') {
-						include "Sujo.php";
-					} elseif ($page == 'whisky') {
-						include 'Whisky.php';
-					} elseif ($page == 'gifting') {
-						include 'gifting.php';
-					}elseif($page == 'promo'){
-						include 'promo.php';
-					}else{ 
-						include "content.viewtwo.php";
-					}
+                    if(isset($_GET['page'])){
+                        $page= $_GET['page'];
+                        if($page == 'vodka'){
+                            include "Vodka.php";
+                        }elseif($page== 'gin'){
+                            include 'Gin.php';
+                        }elseif ($page == 'sujo') {
+                            include "Sujo.php";
+                        } elseif ($page == 'whisky') {
+                            include 'Whisky.php';
+                        } elseif ($page == 'gifting') {
+                            include 'gifting.php';
+                        }elseif($page == 'promo'){
+                            include 'promo.php';
+                        }elseif($page == 'login'){ 
+                            include "loginuser.php";
+                        }else{ 
+                            include "content.viewtwo.php";
+                        }
+                    }
+                        else{
+                            include "content.viewtwo.php";
+                        }
                 ?>
              </div>
              <div>

@@ -37,5 +37,5 @@ $boots = [
         'image' => 'images/comingsoon.jpg'
     ],
 ];
-require "index.viewone.php";
+require "index.viewtwo.php";
 ?>
