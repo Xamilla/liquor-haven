@@ -86,6 +86,7 @@ body{
                 }
                 .outerform{
                     margin-top: 50px;
+                    display: none;
                   }
                   .formcontainer{
                     width: 300px;
@@ -93,6 +94,7 @@ body{
                     margin-left: 500px;
                     margin-bottom: 20px;
                     background-color: rgb(255, 123, 0);
+                    border-radius: 20px;
                   }
                     .login{
                         margin-top:-300px;
@@ -110,6 +112,8 @@ body{
                     input{
                        padding:5px;
                        margin-top: 10px; 
+                       border-radius: 10px;
+                       border:1px solid #f32c09;
                     }
                       label{
                         float: left;
@@ -125,15 +129,44 @@ body{
                         margin-top: -65px;
                         border-radius: 10px;
                         text-align: center;
+                        font-weight: bold;
                       }
                         .close:hover{
-                            background-color: #ff0000;
+                            background-color: #a80303;
+                            color:rgb(255, 0, 0);
                             transition: step-end;
                         }
-                            .submitbtn{
-                                background-color: #e76d09;
-                                border-radius: 30px;
+                            #submitbtn{
+                                background-color:rgb(196, 93, 8);;
+                                border:none;
+                                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-size: 15px;
+                                border-radius: 3px;
+                                color: #fff;
+                                font-weight: bold;
                             }
+                                #submitbtn:hover{
+                                    background-color: #f54e00;
+                                    color:rgb(0, 63, 180);
+                                    transition: step-end;
+                                }
+                                    #cancelbtn{
+                                        background-color: rgb(255, 102, 0);
+                                        border:none;
+                                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                        font-size: 15px;
+                                        border-radius: 3px;
+                                        color: #fff;
+                                        font-weight: bold;
+                                        margin-right: 100px;
+                                        float: center;
+                                        margin-left: 77px;
+                                    }
+                                        #cancelbtn:hover{
+                                            background-color: rgb(193, 93, 8);
+                                            color:rgb(212, 3, 3);
+                                            transition: step-end;                                            transition: step-end;  
+                                        }
                     /* delivery-moto */
                     .deliverymoto{
                         margin:-140px 0 0 0 ;

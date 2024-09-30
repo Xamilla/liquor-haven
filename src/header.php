@@ -1,3 +1,4 @@
+<script src="JS/jscript.js"></script>
 <?php 
     echo "<div class='header'>
             <div class='title'>
@@ -14,7 +15,7 @@
                         <a href='?page=promo' class='menu'> Promo</a>
                     </div>
                         <div class='interface'>
-                            <a href='?page=login' class='icon'>Login</a>
+                            <a href='?page=login' class='icon' onclick='displayWindow()'>Login</a>
                         </div>
                             <div class='deliverymoto'>
                                 <h3 class='moto'>We Deliver, Anytime, Anywhere !!!!!!!!</h3>
@@ -22,8 +23,3 @@
                         <p title='pinakagwapa!'><span style='color: #000;;margin-top:-160px;float:right;margin-right:10px;font-weight:bold'>&copy Camille T. Barola</p>
             </div>";
 ?>
-<script>
-    getDocumentbyID(
-        
-    )
-</script>
